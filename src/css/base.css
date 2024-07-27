@@ -1,0 +1,82 @@
+.base-input {
+  border: 1px solid var(--colorGrey);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  color: var(--colorSecondary);
+}
+
+.base-input:focus {
+  outline: none;
+  color: var(--colorPrimary);
+  border-color: var(--colorPrimary);
+}
+
+.base-input:focus::placeholder {
+  color: var(--colorPrimary);
+}
+
+.base-btn {
+  text-align: center;
+  background-color: var(--colorPrimary);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  transition: background-color 150ms ease-in-out;
+}
+
+.base-btn:hover {
+  background-color: #04422c;
+}
+
+.base-heading-1,
+.base-heading-2,
+.base-heading-3 {
+  line-height: normal;
+  color: var(--colorSecondary);
+}
+
+.base-heading-1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.base-heading-2 {
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+
+.base-heading-3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .base-heading-1 {
+    font-size: 2.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .base-heading-1 {
+    font-size: 2.5rem;
+  }
+  .base-heading-2 {
+    font-size: 2.5rem;
+  }
+  .base-heading-3 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .base-heading-1 {
+    font-size: 2.25rem;
+  }
+  .base-heading-2 {
+    font-size: 2.25rem;
+  }
+  .base-heading-3 {
+    font-size: 2rem;
+  }
+}
