@@ -14,9 +14,9 @@
               </div>
             </div>
             <div class="hidden sm:flex w-full justify-around mt-4">
-              <img src="/images/mysterybox/thumbnail/mysterybox-thumbnail-1.png" alt="" />
-              <img src="/images/mysterybox/thumbnail/mysterybox-thumbnail-2.png" alt="" />
-              <img src="/images/mysterybox/thumbnail/mysterybox-thumbnail-3.png" alt="" />
+              <img src="/images/mysterybox/thumbnail/mysterybox-thumbnail-1.png" alt="Mystery box thumbnail" />
+              <img src="/images/mysterybox/thumbnail/mysterybox-thumbnail-2.png" alt="Mystery box thumbnail" />
+              <img src="/images/mysterybox/thumbnail/mysterybox-thumbnail-3.png" alt="Mystery box thumbnail" />
             </div>
           </div>
         </div>
@@ -36,9 +36,9 @@
               <button class="col-span-2 base-btn">PROCEED TO PAYMENT</button>
             </form>
             <div class="flex justify-center gap-4">
-              <img src="/images/safety-proof/McAfee-secure.png" alt="" />
-              <img src="/images/safety-proof/SSL-encryption.png" alt="" />
-              <img src="/images/safety-proof/TRUSTe-verified.png" alt="" />
+              <img src="/images/safety-proof/McAfee-secure.png" alt="McAfee secure" />
+              <img src="/images/safety-proof/SSL-encryption.png" alt="SSL encryption" />
+              <img src="/images/safety-proof/TRUSTe-verified.png" alt="TRUSTe verified" />
             </div>
           </div>
         </div>
@@ -121,7 +121,7 @@
       </div>
       <div class="flex flex-col items-center mb-4">
         <p class="mb-2">We accept the following credit cards</p>
-        <img src="/images/cards.png" alt="" />
+        <img src="/images/cards.png" alt="Cards that we accept" />
       </div>
     </section>
   </div>
